@@ -1,0 +1,179 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 23, 2021, 4:40:14 PM
+    Author     : Pankaj
+*/
+.sidebar-icon{                            
+    margin-right: 18px;
+} 
+.sidebar-icon i{  
+    /*                         color: rgba(172, 176, 195, 0.65);*/
+    color: #c1c6dc;
+    font-size: 24px;
+}
+.dropdown-toggle[aria-expanded="true"] .sidebar-icon i{
+    color: #fff;
+}
+.layout-px-spacing {
+    min-height: calc(100vh - 140px)!important;
+ }
+.table-action i{  
+    font-size: 20px;
+    padding: 5px;
+}
+.custom-file-container__image-preview{
+    position: relative;
+    overflow: initial;
+    border-radius: 0;
+    background-position: left top;
+    height: 140px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.image-clear{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -12px;
+    top: -12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background: #fff;
+    font-size: 28px;
+    box-shadow: -1px -2px 2px 2px rgb(0 0 0/10%);
+    display: none;
+}
+.image-clear a{
+    position: relative;
+    top: -3px;
+}
+.image-clear:hover a{
+    color: #ff0000;
+}
+.delete-form{
+    display: inline-block;
+}
+.delete-form button[type="submit"]{
+    border: 0;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    color: #515365;
+    background: transparent;
+}
+.widget-heading i{
+    font-size: 24px; 
+}
+.dtr-data i[class*="fa"]{
+    font-size: 20px;
+    padding: 5px;
+}
+ /* ==================
+        Revenue
+    ==================
+*/
+.widget-chart-one .widget-heading {
+    display: flex;
+    justify-content: space-between;
+}
+.widget-chart-one #revenueMonthly {
+    overflow: hidden;
+}
+.widget-chart-one .widget-content .apexcharts-canvas {
+    transition: .5s;
+}
+.widget-chart-one .widget-content .apexcharts-canvas svg {
+    transition: .5s;
+}
+.widget-chart-one .apexcharts-legend-marker {
+    left: -5px!important;
+}
+.widget-chart-one .apexcharts-yaxis-title {
+    font-weight: 600;
+    fill: #888e88;
+}
+.widget-chart-one .apexcharts-xaxis-title {
+    font-weight: 600;
+    fill: #888e88;
+}
+.widget-chart-one .widget-heading .task-action svg {
+    color: #888ea8;
+    width: 19px;
+    height: 19px;
+}
+.widget-chart-one .widget-heading .task-action .dropdown-menu {
+    transform: translate3d(-141px, 0, 0px);
+}
+.widget-1 {
+    position: relative;
+    padding: 20px;
+    border-radius: 6px;
+    border: none;
+    background: #fff;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #e0e6ed;
+    box-shadow: 0 0 40px 0 rgb(94 92 154 / 6%);
+}
+.widget-1 .widget-heading {
+    margin-bottom: 15px;
+}
+.widget-1 h5 {
+    letter-spacing: 0px;
+    font-size: 19px;
+    display: block;
+    color: #0e1726;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.widget-1 .widget-content {}
+
+/*
+    =======================
+        Sold By cateory
+    =======================
+*/
+
+.widget-chart-two {
+    padding: 0;
+}
+.widget-1.widget-chart-two .widget-heading {
+    padding: 20px 20px 0 20px;
+}
+.widget-chart-two .widget-heading .w-icon {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+.widget-chart-two .widget-heading .w-icon a {
+    padding: 6px;
+    border-radius: 10px;
+    padding: 6px;
+    background: #c7e6e4 !important;
+    border: none;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+.widget-chart-two .widget-heading .w-icon a svg {
+    color: #009688;
+}
+.widget.widget-chart-two .widget-content {
+    padding: 0 0 20px 0;
+}
+.widget-chart-two .apexcharts-canvas {
+    margin: 0 auto;
+}
+.widget-chart-two .apexcharts-legend-marker {
+    left: -5px!important;
+}
+.widget-chart-two .widget-heading{
+    margin-bottom: -4px;
+}
